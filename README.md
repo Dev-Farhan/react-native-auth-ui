@@ -52,17 +52,9 @@ react-native-auth-ui/
 
 ## Screenshots
 
-### Onboarding Screen
+### Screens
 
-![Onboarding Screen](assets/images/onboardingSS.png)
-
-### Login Screen
-
-![Login Screen](assets/images/loginSS.png)
-
-### Register Screen
-
-![Register Screen](assets/images/registerSS.png)
+![Screens](assets/images/ss.jpg)
 
 ## License
 
