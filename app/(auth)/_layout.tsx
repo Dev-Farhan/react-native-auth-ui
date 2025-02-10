@@ -7,7 +7,9 @@ export default function RootLayout() {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="(auth)" />
+      <Stack.Screen name="index" />
+      <Stack.Screen name="sign-in" />
+      <Stack.Screen name="sign-up" />
     </Stack>
   );
 }
