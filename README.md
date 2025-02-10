@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# React Native Auth UI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This is a React Native authentication UI built with Expo. It includes:
 
-1. Install dependencies
+- Onboarding Screen
+- Login Screen
+- Register Screen
 
-   ```bash
+## Tech Stack
+
+- **React Native** (Framework for building mobile apps)
+- **Expo** (Toolchain for React Native development)
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Dev-Farhan/react-native-auth-ui.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd react-native-auth-ui
+   ```
+3. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+4. Start the Expo development server:
+   ```sh
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Beautiful and responsive UI
+- Smooth transitions between screens
+- Simple and clean authentication flow
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Folder Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+react-native-auth-ui/
+├── assets/          # Images and icons
+├── components/      # Reusable UI components
+├── app/(auth)/        # Onboarding, Login, Register screens
+├── app/_layout.tsx         # Entry point
+├── package.json   # Dependencies
+└── app.json       # Expo configuration
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Screenshots
 
-## Learn more
+### Onboarding Screen
 
-To learn more about developing your project with Expo, look at the following resources:
+![Onboarding Screen](assets/images/onboardingSS.png)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Login Screen
 
-## Join the community
+![Login Screen](assets/images/loginSS.png)
 
-Join our community of developers creating universal apps.
+### Register Screen
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Register Screen](assets/images/registerSS.png)
+
+## License
+
+This project is open-source and available under the MIT License.
